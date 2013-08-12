@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jquerydotdotdot/rails/version'
+require 'jquery-dotdotdot/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jquerydotdotdot-rails"
+  spec.name          = "jquery-dotdotdot-rails"
   spec.version       = Jquerydotdotdot::Rails::VERSION
   spec.authors       = ["Kinsey Durham"]
   spec.email         = ["kinseyann505@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = "https://github.com/durhamka/jQuerydotdotdot-rails"
+  spec.homepage      = "https://github.com/durhamka/jQuery-dotdotdot-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
