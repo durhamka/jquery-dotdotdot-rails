@@ -2,6 +2,6 @@ require "jquerydotdotdot/rails/version"
 
 module Jquerydotdotdot
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
   end
 end
