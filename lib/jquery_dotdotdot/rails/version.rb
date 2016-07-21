@@ -1,5 +1,5 @@
 module JqueryDotdotdot
   module Rails
-    VERSION = "1.6.5"
+    VERSION = "1.8.3"
   end
 end

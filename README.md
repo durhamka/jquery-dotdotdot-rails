@@ -9,7 +9,7 @@ jQuery-dotdotdot.js is "an advanced cross-browser ellipsis for multiple line
 content." Please see the documentation for
 details(http://dotdotdot.frebsite.nl/)
 
-This gem is up to date with the 1.6.5 version.
+This gem is up to date with the 1.8.3 version.
 
 ## Installation
 
@@ -24,6 +24,36 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jquery-dotdotdot-rails
+
+
+## Setup
+
+Add a line below to app/assets/javascripts/application.js:
+
+    //= require 'jquery.dotdotdot'
+
+Or if you use coffeescript:
+
+    #= require 'jquery.dotdotdot'
+
+## Code Example
+
+In html:
+```html
+<div class="dot-ellipsis">
+    <p>Lorem Ipsum is simply dummy text.</p>
+</div>
+```
+
+In javascript:
+
+```javascript
+$(document).ready(function() {
+    $(".some-text").dotdotdot({
+        // Configuration goes here.
+    });
+});
+```
 
 ## Contributing
 
